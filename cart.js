@@ -28,8 +28,8 @@ const cart = {
     this.count = 0;
   },
   print() {
-    console.log(JSON.stringify(this.items));
-    console.log(JSON.stringify(this.totalPrice));
+    console.log(this.items);
+    console.log(this.totalPrice);
   },
 };
 
